@@ -18,6 +18,9 @@
       <sprite>sprites\spr_UI_menu</sprite>
       <sprite>sprites\sprite5</sprite>
     </sprites>
+    <sprites name="Bullets">
+      <sprite>sprites\spr_Bullets_Normal</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
@@ -32,6 +35,7 @@
     <objects name="Player">
       <object>objects\obj_player</object>
     </objects>
+    <object>objects\obj_Bullets_Normal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
