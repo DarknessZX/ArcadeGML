@@ -14,13 +14,22 @@
     <sprites name="Enemy">
       <sprite>sprites\spr_enemy</sprite>
     </sprites>
+    <sprites name="UI">
+      <sprite>sprites\spr_UI_menu</sprite>
+      <sprite>sprites\sprite5</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_UI_menu</object>
+  </objects>
   <rooms name="rooms">
+    <room>rooms\Menu</room>
     <room>rooms\Fight_room</room>
+    <room>rooms\End_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
