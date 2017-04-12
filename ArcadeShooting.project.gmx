@@ -25,6 +25,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_UI_menu</object>
+    <object>objects\obj_test</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
