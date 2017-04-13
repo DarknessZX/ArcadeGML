@@ -13,33 +13,29 @@
     </sprites>
     <sprites name="Enemy">
       <sprite>sprites\spr_enemy</sprite>
-      <sprite>sprites\spr_enemy2</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\spr_UI_menu</sprite>
       <sprite>sprites\sprite5</sprite>
     </sprites>
+    <sprites name="Bullets">
+      <sprite>sprites\spr_Bullets_Normal</sprite>
+      <sprite>sprites\spr_Bullets_Mini</sprite>
+      <sprite>sprites\spr_Rocket</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
   </backgrounds>
-  <paths name="paths">
-    <path>paths\path0</path>
-  </paths>
-  <scripts name="scripts">
-    <script>scripts\script_check_out_of_bound.gml</script>
-    <script>scripts\script_spawn_enemy.gml</script>
-  </scripts>
+  <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_UI_menu</object>
-    <objects name="Player">
-      <object>objects\obj_player</object>
-    </objects>
-    <objects name="Enemy">
-      <object>objects\obj_enemy_type1</object>
-      <object>objects\obj_test</object>
-    </objects>
-    <object>objects\obj_enemy_spawn</object>
+    <object>objects\obj_Bullets_Normal</object>
+    <object>objects\obj_Explosion_Bullets</object>
+    <object>objects\obj_rocket</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_spaceShip</object>
+    <object>objects\obj_Bullets_Mini</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
