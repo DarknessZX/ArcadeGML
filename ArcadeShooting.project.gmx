@@ -29,6 +29,8 @@
   <objects name="objects">
     <object>objects\obj_UI_menu</object>
     <object>objects\obj_Bullets_Normal</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_spaceShip</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
