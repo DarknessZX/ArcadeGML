@@ -26,15 +26,8 @@
     <background>background\background</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script_check_out_of_bound.gml</script>
-  </scripts>
   <objects name="objects">
     <object>objects\obj_UI_menu</object>
-    <object>objects\obj_test</object>
-    <objects name="Player">
-      <object>objects\obj_player</object>
-    </objects>
     <object>objects\obj_Bullets_Normal</object>
   </objects>
   <rooms name="rooms">
