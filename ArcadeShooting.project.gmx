@@ -13,6 +13,7 @@
     </sprites>
     <sprites name="Enemy">
       <sprite>sprites\spr_enemy</sprite>
+      <sprite>sprites\spr_enemy2</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\spr_UI_menu</sprite>
@@ -28,7 +29,19 @@
     <background>background\background</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script_check_out_of_bound.gml</script>
+    <script>scripts\script_spawn_enemy.gml</script>
+  </scripts>
   <objects name="objects">
+    <objects name="Player">
+      <object>objects\obj_player</object>
+    </objects>
+    <objects name="Enemy">
+      <object>objects\obj_enemy_type1</object>
+      <object>objects\obj_test</object>
+    </objects>
+    <object>objects\obj_enemy_spawn</object>
     <object>objects\obj_UI_menu</object>
     <object>objects\obj_Bullets_Normal</object>
     <object>objects\obj_Explosion_Bullets</object>
