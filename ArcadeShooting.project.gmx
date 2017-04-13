@@ -28,7 +28,9 @@
   <backgrounds name="background">
     <background>background\background</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_enemy</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\script_check_out_of_bound.gml</script>
     <script>scripts\script_spawn_enemy.gml</script>
