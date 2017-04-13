@@ -20,12 +20,17 @@
     </sprites>
     <sprites name="UI">
       <sprite>sprites\spr_UI_menu</sprite>
-      <sprite>sprites\sprite5</sprite>
+      <sprite>sprites\spr_UI_victory</sprite>
+      <sprite>sprites\spr_Lose</sprite>
+      <sprite>sprites\spr_HP</sprite>
     </sprites>
     <sprites name="Bullets">
       <sprite>sprites\spr_Bullets_Normal</sprite>
       <sprite>sprites\spr_Bullets_Mini</sprite>
       <sprite>sprites\spr_Rocket</sprite>
+    </sprites>
+    <sprites name="Items">
+      <sprite>sprites\spr_powerUp</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -46,19 +51,25 @@
       <object>objects\obj_enemy_type1</object>
       <object>objects\obj_test</object>
     </objects>
+    <object>objects\obj_PowerUp_Spawn</object>
     <object>objects\obj_enemy_spawn</object>
     <object>objects\obj_UI_menu</object>
+    <object>objects\obj_UI_victory</object>
+    <object>objects\obj_UI_lose</object>
     <object>objects\obj_Bullets_Normal</object>
     <object>objects\obj_Explosion_Bullets</object>
     <object>objects\obj_rocket</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_spaceShip</object>
     <object>objects\obj_Bullets_Mini</object>
+    <object>objects\obj_PowerUp</object>
+    <object>objects\obj_HP_Bar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\Fight_room</room>
     <room>rooms\End_Room</room>
+    <room>rooms\Lose_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
